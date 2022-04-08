@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto de demostración usando Serenity y Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="acbb42a165ef0464651f716c34304eabecac08fad448cfb4b0616f321ebd3273.html">Simulacion Canon</a></span>
+                > <span class="truncate-60"><a
+                    href="3d1bcbb2d050931e51a2e4a6fc2cc228b8aebe7dba9e510c40a61c3ecc7fbc0e.html">Verificar el funcionamiento del simulador de canon financiero ingresando datos erroneos </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-04-2022 12:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Simulacion Canon </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Verificar el funcionamiento de la pantalla de simulación de Canon Financiero
+expuesta por el grupo Bancolombia - Leasing, en cuanto a la presentación de los valores calculados
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0218fdbc5052f69d3f1f3166bb7e2fb1aaba25c78a7c7745c14ed1ccd35fa8dc.html">Scenario2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Verificar el funcionamiento del simulador de canon financiero ingresando datos erroneos
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d6f683c4c679647100a72903d67a8a0a784291d38e3af2fe4d18ae7d1468c19b.png" title="Given Laura ingresa  seccion simulacion de canon financiero" width="1366"/>
+                <img src="b79c8b1fe4350650465a7aabf7f8ed1e9c18c5f9c4af3e54bba3e63b86704d8c.png" title="Laura opens the Bancolombia page" width="1366"/>
+                <img src="b7117f41f2b8c69f28630192360e61b8a6fca67187e1d448a75d23cb3b067e8b.png" title="Laura clicks on Escogemos ir a la pagina princial" width="1366"/>
+                <img src="8bdffbc5d4884798311a8fa97f38637dbe0a51123a2c7ea5860c34f4000602c4.png" title="Laura clicks on Seccion de productos y servicios" width="1366"/>
+                <img src="507714ef8f9ede1f2a3711849524a4f882cbd7cf972cf194d042705c0128aa0b.png" title="Laura clicks on Escogemos producto leasing" width="1366"/>
+                <img src="9dc5c35114141fc66fe10df6c3092a06ae3fc7b126dadcb5914a56be058e201d.png" title="Laura clicks on Escogemos seccion leasing habitacion" width="1366"/>
+                <img src="8080194f46795a46c498c8aa60def4f043913f95c1cd851ca38c93ad118de58f.png" title="Laura clicks on Boton para ir al simulador" width="1366"/>
+                <img src="d6f683c4c679647100a72903d67a8a0a784291d38e3af2fe4d18ae7d1468c19b.png" title="Laura clicks on Seccion simular segun valor vivienda" width="1366"/>
+                <img src="3409c57473638e22db207f166a3b0fd219d94e22ec2d014b45ac6d679ba44f84.png" title="When ingresa datos erroneos para simular su canon
+| valor | plazo |
+| 39999999.99 | 31 |" width="1366"/>
+                <img src="5036a3b653a428a578da5a682dad71e15123340bf31ae012849bba25d9922c27.png" title="Laura enters '39999999.99' into Ingresamos el valor de la vivienda" width="1366"/>
+                <img src="86661951bf2b9a39a3a847a2c4e108638657a0a03f225d552a6b9e908a88d824.png" title="Laura clicks on Ingresamos el valor que necesitamos" width="1366"/>
+                <img src="1cb9216694453aea4c0adc085d8d5119bd11b71b9f23be840f7a3bb78bbcc72e.png" title="Laura clicks on Escogemos el valor del porcentaje" width="1366"/>
+                <img src="a336a93c65a227c11cd0610698602d4e5e59bb1ab50317a00c32fc6e9d9cf861.png" title="Laura enters '31' into Ingresamos el tiempo en a&ntilde;os" width="1366"/>
+                <img src="54aba7c8d9de5d11d29b51bf4b575b1285f4838e9ddbf9e5d5772969c1c9a896.png" title="Laura clicks on Escogemos una fecha de nacimiento" width="1366"/>
+                <img src="f779e356aaa7a0428e86f271bc9542165e4534c43adf044fbe37219391c75b01.png" title="Laura clicks on Escogemos el a&ntilde;o" width="1366"/>
+                <img src="a14c0febb457897c568ac967b0c3832ff6d12eecf1ed155716dd1fa749c70ef0.png" title="Laura clicks on Escogemos el mes" width="1366"/>
+                <img src="7509a988e1e651a82742ee9a271cae6dd658a1ba1c4bcff19abfd79dd13aba03.png" title="Laura clicks on Escogemos el dia" width="1366"/>
+                <img src="3409c57473638e22db207f166a3b0fd219d94e22ec2d014b45ac6d679ba44f84.png" title="Then verifica si permite realizar su simulacion
+| error |
+| El campo no cumple |" width="1366"/>
+                <img src="3409c57473638e22db207f166a3b0fd219d94e22ec2d014b45ac6d679ba44f84.png" title="Then verifica error: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
